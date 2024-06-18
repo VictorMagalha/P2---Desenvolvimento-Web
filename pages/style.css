@@ -1,0 +1,31 @@
+.text{
+    text-align: justify;
+
+}
+
+.botao-voltar {
+    background-color: black;
+    color: white;
+    border: 2px solid gray;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.parallax {
+    /* Set a specific height */
+    min-height: 100vh; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.bg-title{
+    background: rgba(0,0,0,0.9);
+    border-radius: 20px;
+}
